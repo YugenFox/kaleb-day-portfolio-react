@@ -6,12 +6,10 @@ import Projects from "../Components/Projects";
 const Home = () => {
   return (
     <>
-      <Container maxWidth="false" sx={{ backgroundColor: "grey" }}>
-        <Typography variant="body1" color="initial">
+      <Container maxWidth="xl" sx={{ backgroundColor: "grey" }}>
           <Header />
           <About />
           <Projects />
-        </Typography>
       </Container>
     </>
   );
