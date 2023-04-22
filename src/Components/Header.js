@@ -10,11 +10,13 @@ const Header = () => {
       flexDirection: "column",
       alignItems: "center",
       justifyContent: "center",
+      minHeight: "400px",
+      // backgroundColor: "blueviolet",
     }}>
       <img
         src="https://kalebsday.netlify.app/images/kaleb-professional-headshot.jpg"
         alt=""
-        className="img"
+        className="headshotImage"
       ></img>
        <Box>
          <Typography variant="h2" component="h2" color="primary">

@@ -1,4 +1,18 @@
 .img {
   /* width: 100%; */
-  height: 5rem;
+  height: 15rem;
+}
+
+.headshotImage{
+	/* aspect-ratio: 1 / 1.5; */
+	width: 200px;
+	height: 220px;
+	/* width: 15vw; */
+	background: tomato;
+	/* height: 40vh; */
+	border-radius: 25px;
+	object-fit: cover;
+	/* clip: rect(0px,60px,200px,0px); */
+	/* object-position: 70% 15%; */
+	/* clip: rect(10px, 10px, 10px, 10px) */
 }
