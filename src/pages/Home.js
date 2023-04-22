@@ -13,7 +13,7 @@ const styles = {
     backgroundSize: '100% 100%',
     backgroundClip: 'content-box, border-box',
     color: '#fff',
-    padding: '8px',
+    padding: '0px',
     textAlign: 'center',
   },
 };
@@ -24,14 +24,14 @@ const Home = () => {
 
   return (
     <>
-      <Container maxWidth="xl" sx={{ backgroundColor: "grey",
+      <Box maxWidth="false" sx={{ backgroundColor: "grey",
     height: '100vh' }}>
         <Box sx={styles.portfolio}>
           <Header />
           <About />
         </Box>
         <Projects />
-      </Container>
+      </Box>
     </>
   );
 };
