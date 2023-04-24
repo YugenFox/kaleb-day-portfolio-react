@@ -19,7 +19,7 @@ const Header = () => {
         className="headshotImage"
       ></img>
        <Box>
-         <Typography variant="h2" component="h2" color="primary">
+         <Typography sx={{ fontWeight: 'bold', m: 1 }} variant="h2" component="h2" color="primary">
               Kaleb Day
             </Typography>
             <Typography variant="subtitle1" component="subtitle1" color="primary">
