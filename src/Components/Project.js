@@ -3,9 +3,23 @@ import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 
-const Project = ({title}) => {
+// add the flex fill to get the container to be used like the 3rd non Project Grid Item atm
+const Project = ({ title }) => {
   return (
-    <Grid item xs={4}>
+    <Grid
+      item
+      xs={4}
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        height: "100px",
+        spacing: "1",
+        justifyContent: "center",
+        alignItems: "center",
+        alignContent: "center",
+        wrap: "wrap",
+      }}
+    >
       <Paper>
         <Box
           sx={{
