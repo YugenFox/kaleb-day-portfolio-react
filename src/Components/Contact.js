@@ -2,15 +2,22 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
-import { IconButton } from '@mui/material';
-import { Facebook, Twitter, Instagram } from '@mui/icons-material';
-
+import { IconButton } from "@mui/material";
+import { Facebook, Twitter, Instagram } from "@mui/icons-material";
 
 const Contact = () => {
   return (
-    <Box bgcolor="primary.main" py={3} px={2}>
-      <Typography variant="h6" align="center" gutterBottom>
-        Please feel free to reach out to me through my socials below!
+    <Box
+      bgcolor="primary.main"
+      py={3}
+      px={2}
+      sx={{
+        color: "white",
+      }}
+    >
+      <Typography variant="h6" align="center" color="Textprimary" gutterBottom>
+        Curious what we could make together? Please feel free to reach out to me
+        through my socials below!
       </Typography>
       <Box display="flex" justifyContent="center">
         <IconButton href="https://www.facebook.com/">
@@ -25,7 +32,7 @@ const Contact = () => {
       </Box>
     </Box>
   );
-}
+};
 export default Contact;
 
 /* const Contact = () => {

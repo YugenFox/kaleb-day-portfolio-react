@@ -8,9 +8,10 @@ const About = () => {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
+        color: "white" // set the text color to white, without color in typography would be white, but just because inheriting from parent Box component...maybe from Home's weird background style
       }}
     >
-      <Typography textAlign="center" variant="body1" color="Textprimary">
+      <Typography textAlign="center" variant="body1" >
         Please take a moment to look at my past work
         <br />
         Together there is something we can create/build to add value to your
