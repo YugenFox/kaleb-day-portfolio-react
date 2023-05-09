@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 
 // add the flex fill to get the container to be used like the 3rd non Project Grid Item atm
+  // maybe use min height and min width, not sure
 const Project = ({ title }) => {
   return (
     <Grid
