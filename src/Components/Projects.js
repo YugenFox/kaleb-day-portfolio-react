@@ -8,9 +8,16 @@ import Project from "./Project";
 const Projects = () => {
   return (
     <>
-      <Container maxWidth="lg">
-        <Typography variant="h2" color="primary" >
-          <Box sx={{ textAlign: 'center', m: 1 }}>Projects:</Box>
+      <Box
+        maxWidth="lg"
+        marginX="7%"
+        display="flex"
+        flexDirection="column"
+        justifyContent="center"
+        alignItems="center"
+      >
+        <Typography variant="h2" color="primary">
+          <Box sx={{ textAlign: "center", m: 1 }}>Projects:</Box>
         </Typography>
         <Grid
           container
@@ -21,13 +28,10 @@ const Projects = () => {
           alignContent="center"
           wrap="wrap"
           height={480}
+          sx={{ backgroundColor: "yellow" }}
         >
-          <Project 
-          title='Project 1'
-          />
-          <Project 
-          title='Project 2'
-          />
+          <Project title="Project 1" />
+          <Project title="Project 2" />
           <Grid item xs={4}>
             <Paper>
               <Box
@@ -43,7 +47,7 @@ const Projects = () => {
             </Paper>
           </Grid>
         </Grid>
-      </Container>
+      </Box>
     </>
   );
 };
