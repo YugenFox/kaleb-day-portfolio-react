@@ -3,29 +3,39 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 
+import headshotImage from "../images/kaleb-professional-headshot.jpg";
+
 const Header = () => {
   return (
-    <Box p={3} sx={{
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",
-      minHeight: "400px",
-      // backgroundColor: "blueviolet",
-    }}>
+    <Box
+      p={3}
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        minHeight: "400px",
+        // backgroundColor: "blueviolet",
+      }}
+    >
       <img
-        src="https://kalebsday.netlify.app/images/kaleb-professional-headshot.jpg"
+        src={headshotImage}
         alt=""
         className="headshotImage"
-      ></img>
-       <Box>
-         <Typography sx={{ fontWeight: 'bold', m: 1 }} variant="h2" component="h2" color="primary">
-              Kaleb Day
-            </Typography>
-            <Typography variant="subtitle1" component="subtitle1" color="primary">
-              Software Engineer
-            </Typography>
-       </Box>
+      />
+      <Box>
+        <Typography
+          sx={{ fontWeight: "bold", m: 1 }}
+          variant="h2"
+          component="h2"
+          color="primary"
+        >
+          Kaleb Day
+        </Typography>
+        <Typography variant="subtitle1" component="subtitle1" color="primary">
+          Software Engineer
+        </Typography>
+      </Box>
     </Box>
   );
 };

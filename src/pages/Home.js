@@ -22,7 +22,7 @@ const styles = {
 const Home = () => {
   return (
     <>
-      <Box maxWidth="false" sx={{ backgroundColor: "grey", height: "100vh" }}>
+      <Box maxWidth="false" sx={{ backgroundColor: "", height: "100vh" }}>
         <Box sx={styles.portfolio}>
           <Header />
           <About />

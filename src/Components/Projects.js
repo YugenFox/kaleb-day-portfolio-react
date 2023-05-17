@@ -5,6 +5,9 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Project from "./Project";
 
+import projectFitnessFriendsImage from "../images/projects/pexels-leon-ardho-1552242.jpg"
+import projectSoccerSiteImage from "../images/projects/kaleb-freestyle_in_front_of_UA_stadium.png"
+
 const Projects = () => {
   return (
     <>
@@ -31,9 +34,13 @@ const Projects = () => {
             height={480}
             sx={{ backgroundColor: "yellow" }}
           >
-            <Project title="Project 1" />
-            <Project title="Project 2" />
-            <Grid item xs={4}>
+            <Project title="Project 1" 
+            projectImage={projectFitnessFriendsImage}/>
+            <Project title="Project 2"
+            projectImage={projectSoccerSiteImage} />
+            <Project title="Project 3" />
+            {/* will remove below project */}
+            {/* <Grid item xs={4}>
               <Paper>
                 <Box
                   sx={{
@@ -46,7 +53,8 @@ const Projects = () => {
                   </Typography>
                 </Box>
               </Paper>
-            </Grid>
+            </Grid> */}
+
           </Grid>
         </Box>
       </Container>

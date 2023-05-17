@@ -13,6 +13,8 @@ const Contact = () => {
       px={2}
       sx={{
         color: "white",
+        width: "100%",
+        marginTop: "auto"
       }}
     >
       <Typography variant="h6" align="center" color="Textprimary" gutterBottom>
