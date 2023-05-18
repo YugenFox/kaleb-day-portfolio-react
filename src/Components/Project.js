@@ -9,7 +9,7 @@ const Project = ({ title, projectImage }) => {
   return (
     <Grid
       item
-      xs={4}
+      xs={12}
       sx={{
         display: "flex",
         flexDirection: "column",
